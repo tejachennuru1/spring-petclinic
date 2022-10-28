@@ -9,8 +9,7 @@ pipeline {
         stage('build') {
                 steps {
                     sh 'mvn package'
-                    sh './mvn build'
-                }
+                               }
         }
         stage('archive results') {
                 steps {
