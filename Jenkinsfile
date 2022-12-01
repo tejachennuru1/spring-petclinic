@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'proj1' }
+    agent { label 'newpro1' }
         stages {
             stage('vcs') {
                 steps {
