@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'dotnet' }
+    agent { label 'proj1' }
         stages {
             stage('vcs') {
                 steps {
